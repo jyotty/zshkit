@@ -1,0 +1,2 @@
+setopt autocd histignoredups noclobber nomatch notify
+unsetopt extendedglob
