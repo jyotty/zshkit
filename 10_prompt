@@ -1,2 +1,2 @@
 setopt prompt_subst
-PROMPT='%{$reset_color%}%n@%m:%~ $(git-prompt)%(?..$fg_bold[red]!%{$reset_color%})%(!.#.$) '
+PROMPT='%{$reset_color%}%n@%m:%~ $(git-prompt)%(?..%{$fg_bold[red]%}!%{$reset_color%})%(!.#.$) '
