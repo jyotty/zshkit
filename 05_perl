@@ -1,0 +1,5 @@
+# local::lib
+eval $(perl -Mlocal::lib)
+
+# perlbrew
+export PATH=/Users/josh/perl5/perlbrew/bin:/Users/josh/perl5/perlbrew/perls/current/bin:${PATH}
