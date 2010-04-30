@@ -1,4 +1,0 @@
-path=($path /opt/local/bin)
-
-# Allow MacPorts man pages
-manpath=($manpath /opt/local/man)

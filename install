@@ -11,5 +11,5 @@ fi
 if [[ -f $HOME/.zshrc ]]; then
 	cp $HOME/.zshrc $HOME/.zshrc.pre_zshkit
 fi
-echo "source $mydir/env" > $HOME/.zshenv
-echo "source $mydir/rc" > $HOME/.zshrc
+echo "source $mydir/env" > $HOME/.zshrc
+echo "source $mydir/rc" >> $HOME/.zshrc
