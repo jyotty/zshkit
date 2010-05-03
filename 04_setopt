@@ -1,2 +1,3 @@
 setopt autocd histignoredups noclobber nomatch notify
 unsetopt extendedglob
+bindkey -e
